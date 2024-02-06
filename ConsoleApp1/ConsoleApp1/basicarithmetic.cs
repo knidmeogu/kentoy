@@ -36,33 +36,33 @@ namespace HelloWorld
             Console.Write("Enter num2: ");
             int num2 = Convert.ToInt32(Console.ReadLine());
 
-            /*Console.WriteLine("+ - * /");
+            Console.WriteLine("+ - * /");
             Console.Write("Enter choice: ");
             String choice = (Console.ReadLine());
 
             switch (choice)
             {
                 case "+":
-                    Console.WriteLine(m.add);
+                    m.add(num1, num2);
                     break;
                 case "-":
-                    Console.WriteLine(m.sub);
+                    m.sub(num1, num2);
                     break;
                 case "*":
-                    Console.WriteLine(m.mul);
+                    m.mul(num1, num2);
                     break;
                 case "/":
-                    Console.WriteLine(m.div);
+                    m.div(num1, num2);
                     break;
                 default:
                     Console.WriteLine("INVALID CHOICE!!!");
                     break;
-            }*/
+            }
 
-            m.add(num1, num2);
-            m.sub(num1, num2);
-            m.mul(num1, num2);
-            m.div(num1, num2);
+
+
+
+
         }
     }
 }
