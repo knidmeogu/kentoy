@@ -25,7 +25,7 @@ namespace HelloWorld
             Console.WriteLine("The quotient of num1 and num2 is " + (num1 / num2));
         }
     }
-    class Program
+    class Activity1
     {   
 
         static void Main(string[] args)
